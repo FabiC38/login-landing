@@ -1,0 +1,60 @@
+ @font-face{
+    font-family: "Cabin";
+    src: url(Cabin-Regular.ttf);
+ }
+.tamaño{
+    font-family: "Cabin";
+}
+
+.cuerpo{
+    background-color:#8f0311;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.centro{
+    width: 350px;
+    height: 500px;
+    color: black;
+    border: solid #d6d6d6 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.perfil{
+    height: 100px;
+    width: 100px;
+    
+    
+}
+
+.casillas{
+    height: 50px;
+    width: 200px;
+    border: solid #dcdcdc 2px;
+    font-family: "Cabin";
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #810aff;
+    border: solid #6702d3 3px;
+    font-family: "Cabin";
+    border-radius: 5px;
+    margin: 20px;
+}
